@@ -117,17 +117,28 @@ const Div = styled.div`
 
             ul {
 
-                li {
-
-                    font-size: 1.8rem;
-                    float: left;
-                    width: 25%;
-                    margin-bottom: 14px;
-
-                    a {
-
+                @media(min-width:1024px) and (max-width:1199px){
+                    
+                    li {
+    
+                        font-size: 1.8rem;
+                        float: left;
+                        width: 25%;
+                        margin-bottom: 14px;
                     }
                 }
+
+                @media(min-width:1200px){
+                    
+                    li {
+    
+                        font-size: 1.8rem;
+                        float: left;
+                        width: 20%;
+                        margin-bottom: 14px;
+                    }
+                }
+
             }
         }
     }

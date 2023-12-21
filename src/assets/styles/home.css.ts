@@ -62,6 +62,7 @@ const Story = styled.div`
         display: flex;
         flex-wrap: wrap;
         margin-top: 20px;
+        height: calc(100vh -390px);
 
         .item-story {
             width: 216px;
