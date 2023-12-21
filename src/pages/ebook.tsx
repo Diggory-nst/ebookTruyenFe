@@ -73,7 +73,7 @@ const Ebook = () => {
                                             <span className="status-ebook">{ebook.status}</span>
                                             <h2 className="number-chapter-ebook">{ebook.chap_number} <b>Chương</b></h2>
                                             <button className='btn-forward'>
-                                                <a href="https://dgreader.vn/" style={{ color: 'white' }}>Đọc Truyện Tại Đây</a>
+                                                <a href="https://dgreader.pro/" style={{ color: 'white' }}>Đọc Truyện Tại Đây</a>
                                             </button>
                                         </div>
                                         <div className="install-ebook">
