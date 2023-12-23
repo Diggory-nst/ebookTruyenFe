@@ -71,6 +71,10 @@ const Home = () => {
         getEbooks(filterEbook)
     }, [currentPage])
 
+    useEffect(() => {
+        alert("Trang web chỉ tương thích với Máy Tính. Chúng tôi sẽ sớm hoàn thiện trang web để tương thích với mọi thiết bị. Xin lỗi vì sự bất tiện này")
+    }, [])
+
     return (
         <Div className='home-page'>
             <Header />

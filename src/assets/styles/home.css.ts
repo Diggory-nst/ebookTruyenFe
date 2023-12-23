@@ -57,12 +57,15 @@ const Story = styled.div`
         }
     }
 
+    .list-story {
+        min-height: calc(100vh - 390px);
+    }
+
     .have-ebook {
 
         display: flex;
         flex-wrap: wrap;
         margin-top: 20px;
-        height: calc(100vh -390px);
 
         .item-story {
             width: 216px;
