@@ -58,7 +58,7 @@ const Story = styled.div`
     }
 
     .list-story {
-        min-height: calc(100vh - 390px);
+        min-height: calc(100vh - 395px);
     }
 
     .have-ebook {
@@ -141,7 +141,7 @@ const Story = styled.div`
 
     .non-ebook {
         display: flex;
-        height: calc(100vh - 370px);
+        height: calc(100vh - 375px);
         justify-content: center;
         align-items: center;
 

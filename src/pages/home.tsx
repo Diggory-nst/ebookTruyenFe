@@ -94,6 +94,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="list-story">
+                            <h1 style={{ marginTop: '20px', textAlign: 'center', color: '#000000ad' }}>Ebook được cập nhật theo yêu cầu của mọi người. Liên hệ ngay nhé!</h1>
                             {isError === false ?
                                 <>
                                     <div className='have-ebook'>

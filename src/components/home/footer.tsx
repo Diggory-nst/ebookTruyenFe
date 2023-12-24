@@ -4,7 +4,6 @@ import { Div } from '../../assets/styles/home/footer.css'
 const Footer = () => {
     return (
         <Div className='contact'>
-            <h1>Nếu Cần Ebook Truyện Nào Đừng Ngại Ngần Liên Hệ Ngay Nhé</h1>
             <a href='https://www.facebook.com/truyen.tangkinhcac.vn'>
                 <h1>Facebook: Tàng Kinh Các</h1>
             </a>

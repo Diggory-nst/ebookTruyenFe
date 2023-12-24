@@ -20,11 +20,6 @@ const Div = styled.footer`
         font-size: 1.6rem;
         color: #6a9d48;
     }
-
-    h1:first-child {
-        margin-top: 0px;
-        margin-bottom: 14px;
-    }
 `
 
 export {

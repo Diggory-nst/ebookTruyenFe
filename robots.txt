@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /admin-secret/
-Allow: /
-Sitemap: https://tangkinhcac.pro/sitemap.xml
