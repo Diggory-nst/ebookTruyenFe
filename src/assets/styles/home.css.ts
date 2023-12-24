@@ -58,7 +58,7 @@ const Story = styled.div`
     }
 
     .list-story {
-        min-height: calc(100vh - 395px);
+        min-height: calc(100vh - 359px);
     }
 
     .have-ebook {
