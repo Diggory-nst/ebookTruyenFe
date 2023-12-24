@@ -64,7 +64,7 @@ const Ebook = () => {
                         <div className="grid wide">
                             <div className="border-line"></div>
                             <div className="detail-story-header">
-                                <img src={`${domain}/images/` + ebook.image} />
+                                <img src={`${domain}/images/` + ebook.image} alt={ebook.name} />
                                 <div className="detail-story__info">
                                     <h1 className='name-ebook'>{ebook.name}</h1>
                                     <div className="detail-story__info-1">

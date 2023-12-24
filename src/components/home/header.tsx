@@ -78,10 +78,10 @@ const Header = () => {
                 <div className="section-header">
                     <div className="section-logo">
                         <div>
-                            <img src={logo_img} />
+                            <img src={logo_img} alt='logo-img' />
                             <div>
-                                <img src={logo_text} />
-                                <img src={logo_sologan} />
+                                <img src={logo_text} alt='logo-text' />
+                                <img src={logo_sologan} alt='logo-sologan' />
                             </div>
                         </div>
                     </div>

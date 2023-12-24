@@ -102,7 +102,7 @@ const Home = () => {
                                             return (
                                                 <Link to={`/ebook/${ebook.slug}`} className="item-story" key={ebook._id}>
                                                     <div className="image">
-                                                        <img src={`${domain}/images/` + ebook.image} />
+                                                        <img src={`${domain}/images/` + ebook.image} alt={ebook.name} />
                                                     </div>
                                                     <div className="information">
                                                         <h1 className="name">{ebook.name}</h1>
