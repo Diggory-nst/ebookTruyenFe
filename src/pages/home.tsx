@@ -37,7 +37,7 @@ const Home = () => {
 
     // Pagination
     const [totalDc, setTotalDc] = useState<number>(0)
-    const limitPage = useRef(1)
+    const limitPage = useRef(20)
     const currentPage = useSelector((state: { pagination: { currentPage: number } }) => {
         return state.pagination.currentPage
     })
