@@ -179,7 +179,7 @@ const Ebook: React.FC<Props> = ({ headers }) => {
 
         const name_file_list = fileListChapter.name
         const size_file_list = fileListChapter.size
-        const max_size = 1024 * 1024 * 5 // 5MB
+        const max_size = 1024 * 1024 * 10 // 5MB
 
         if (size_file_list > max_size) {
             setErrorAddEbook(true)
@@ -201,7 +201,7 @@ const Ebook: React.FC<Props> = ({ headers }) => {
 
             if (size_file_ebook > max_size) {
                 setErrorAddEbook(true)
-                setMessageErrorAddEbook('File Phải Nhỏ Hơn 5MB')
+                setMessageErrorAddEbook('File Phải Nhỏ Hơn 10MB')
                 return false
             }
 
@@ -226,14 +226,13 @@ const Ebook: React.FC<Props> = ({ headers }) => {
 
         const name = capitalizedText(ebookAdd.name)
         const author = capitalizedText(ebookAdd.author)
-        const status = capitalizedText(ebookAdd.status)
 
         const url = `${domain}/admin/new-ebook`
 
         const formData = new FormData()
         formData.append("name", name)
         formData.append("author", author)
-        formData.append("status", status)
+        formData.append("status", ebookAdd.status)
         formData.append("chap_number", ebookAdd.chap_number)
         formData.append("image", fileImage, encodeURIComponent(fileImage.name))
         formData.append("listChapter", fileListChapter)
@@ -299,12 +298,11 @@ const Ebook: React.FC<Props> = ({ headers }) => {
 
         const name = capitalizedText(ebookEdit.name)
         const author = capitalizedText(ebookEdit.author)
-        const status = capitalizedText(ebookEdit.status)
 
         const formData = new FormData()
         formData.append("name", name)
         formData.append("author", author)
-        formData.append("status", status)
+        formData.append("status", ebookEdit.status)
         formData.append("chap_number", ebookEdit.chap_number)
 
         const max_size = 1024 * 1024 * 5 // 5MB
