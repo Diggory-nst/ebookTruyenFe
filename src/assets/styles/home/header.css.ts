@@ -98,14 +98,17 @@ const Div = styled.header`
         margin-top: 48px;
         background-color: white;
         border-radius: 5px;
-        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.4), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
         position: absolute;
+        max-height: 245px;
+        overflow-y: auto;
         z-index: 10;
     
         a {
             margin-left: 10px;
             margin-top: 15px;
             font-size: 1.8rem;
+            line-height: 2.2rem;
             cursor: pointer;
         }
 
