@@ -137,6 +137,17 @@ const Story = styled.div`
                 }
             }
         }
+
+        @media(min-width:1500px) {
+            .item-story {
+                width: 256px;
+
+                .image {
+                    width: 190px;
+                    height: 275px;
+                }
+            }
+        }
     }
 
     .non-ebook {
