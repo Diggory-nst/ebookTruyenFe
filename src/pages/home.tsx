@@ -112,7 +112,7 @@ const Home = () => {
                                                     <div className="information">
                                                         <h1 className="name">{ebook.name}</h1>
                                                         <h2 className="author">{ebook.author}</h2>
-                                                        <h2 className="status">{ebook.status}</h2>
+                                                        <h3 className="status">{ebook.status}</h3>
                                                     </div>
                                                 </Link>
                                             )
