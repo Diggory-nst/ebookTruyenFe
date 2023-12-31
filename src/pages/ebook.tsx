@@ -71,13 +71,13 @@ const Ebook = () => {
                                         <div className="information-ebook">
                                             <span className="author-ebook">{ebook.author}</span>
                                             <span className="status-ebook">{ebook.status}</span>
-                                            <h2 className="number-chapter-ebook">{ebook.chap_number} <b>Chương</b></h2>
+                                            <h4 className="number-chapter-ebook">{ebook.chap_number} <b>Chương</b></h4>
                                             <button className='btn-forward'>
-                                                <a href="https://dgreader.pro/" style={{ color: 'white' }}>Đọc Truyện Tại Đây</a>
+                                                <a href="https://dgreader.pro/" style={{ color: 'white' }}>Đọc Ebook</a>
                                             </button>
                                         </div>
                                         <div className="install-ebook">
-                                            <h1>Tải Ebook</h1>
+                                            <h3>Tải Ebook</h3>
                                             <div className="part-ebook">
                                                 <a className='list-chapter' href={`${domain}/ebooks/` + ebook.listChapter} >Danh sách chương</a>
                                                 <ul>

@@ -90,12 +90,12 @@ const Home = () => {
                         <div className="sum-story">
                             <div className='number-of-story'>
                                 <IonIcon name="dice-outline"></IonIcon>
-                                <h1>{totalDc} Truyện ( Tất cả Ebook đều là Dịch thuần Việt )</h1>
+                                <h3>{totalDc} Truyện ( Tất cả Ebook đều là Dịch thuần Việt )</h3>
                             </div>
                             <div className='sort-by'>
-                                <h1 className={filterEbook === 'Mới Nhất' ? 'active' : 'no-active'} onClick={() => getEbooks('Mới Nhất')}>Mới Nhất</h1>
-                                <h1 className={filterEbook === 'Hoàn Thành' ? 'active' : 'no-active'} onClick={() => getEbooks('Hoàn Thành')}>Hoàn Thành</h1>
-                                <h1 className={filterEbook === 'Đang Ra' ? 'active' : 'no-active'} onClick={() => getEbooks('Đang Ra')}>Đang Ra</h1>
+                                <h4 className={filterEbook === 'Mới Nhất' ? 'active' : 'no-active'} onClick={() => getEbooks('Mới Nhất')}>Mới Nhất</h4>
+                                <h4 className={filterEbook === 'Hoàn Thành' ? 'active' : 'no-active'} onClick={() => getEbooks('Hoàn Thành')}>Hoàn Thành</h4>
+                                <h4 className={filterEbook === 'Đang Ra' ? 'active' : 'no-active'} onClick={() => getEbooks('Đang Ra')}>Đang Ra</h4>
                             </div>
                         </div>
                         <div className="list-story">
@@ -111,8 +111,8 @@ const Home = () => {
                                                     </div>
                                                     <div className="information">
                                                         <h1 className="name">{ebook.name}</h1>
-                                                        <h1 className="author">{ebook.author}</h1>
-                                                        <h1 className="status">{ebook.status}</h1>
+                                                        <h2 className="author">{ebook.author}</h2>
+                                                        <h2 className="status">{ebook.status}</h2>
                                                     </div>
                                                 </Link>
                                             )

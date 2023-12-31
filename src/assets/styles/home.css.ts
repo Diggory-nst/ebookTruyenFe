@@ -33,7 +33,7 @@ const Story = styled.div`
                 color: #7e8d74;
             }
 
-            h1 {
+            h3 {
                 font-size: 2.2rem;
                 color: #000000ad;
             }
@@ -41,7 +41,7 @@ const Story = styled.div`
 
         .sort-by {
 
-            h1 {
+            h4 {
                 font-size: 1.8rem;
                 margin-left: 24px;
                 cursor: pointer;

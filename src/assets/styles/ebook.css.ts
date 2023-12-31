@@ -98,7 +98,7 @@ const Div = styled.div`
         .install-ebook {
             width: calc(100% - 396px);
 
-            h1 {
+            h3 {
                 font-size: 2rem;
                 text-align: center;
                 color: #838b79;
